@@ -12,7 +12,7 @@ package org.example.simplelogin;
  */
 public class LoginService {
     private static final String DUMMY_USER_NAME = "guest";
-    private static final String DUMMY_PASSWORD = "passwordin";
+    private static final String DUMMY_PASSWORD = "passwordinTest";
     
     public boolean login(String userName,String password){
         boolean loginSuccessful = false;
