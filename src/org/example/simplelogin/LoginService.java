@@ -6,6 +6,9 @@
 
 package org.example.simplelogin;
 
+import java.awt.Component;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author jengDizort
@@ -20,5 +23,9 @@ public class LoginService {
             loginSuccessful = true;
         }
         return loginSuccessful;
+    }
+    
+    public void showHint(Component obj){
+        JOptionPane.showMessageDialog(obj, "Like the other.");
     }
 }
